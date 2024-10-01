@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PetFriendsConsoleApp.Entity
+namespace PetFriendsConsoleApp.Entity.Interfaces
 {
     internal interface IPet
     {
