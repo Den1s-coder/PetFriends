@@ -56,7 +56,7 @@ namespace PetFriendsConsoleApp.Methods
 
             while (!int.TryParse(Console.ReadLine(), out number))
             {
-                Console.WriteLine("Error: Incorrect age format. Enter a number:");
+                Console.WriteLine("Error: Incorrect format. Enter a number:");
             };
 
             number--;
@@ -121,7 +121,7 @@ namespace PetFriendsConsoleApp.Methods
 
             while (!int.TryParse(Console.ReadLine(), out number))
             {
-                Console.WriteLine("Error: Incorrect age format. Enter a number:");
+                Console.WriteLine("Error: Incorrect format. Enter a number:");
             };
 
             number--; //Indexes start with 0
